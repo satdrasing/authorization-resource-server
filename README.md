@@ -1,6 +1,6 @@
 # authorization-resource-server
 
-Securing REST API with Spring Security OAuth2 password flow
+Centralized Authorization with OAuth2 + JWT - password flow - spring boot 2
 
 Minimal [Spring Boot](http://projects.spring.io/spring-boot/) sample app.
 
