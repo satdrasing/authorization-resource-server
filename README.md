@@ -130,6 +130,7 @@ satendra@minerva:~/Desktop/key$
 ```
 
 #### Authorization-server - persist jwt token to db using JdbcTokenStore
+#######  Revokation will not work while using signing key for JWT in case for microservices authentication. To revoke token each microservices first validate token revokation - that create bottleneck - to reduce bottle neck add  more instance. 
 ```
 package com.bamf.authorizationserver.config;
 
